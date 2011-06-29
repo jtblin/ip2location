@@ -18,7 +18,7 @@ module Ip2Location
     end
     
     def request(ip)
-      ::Request.ip2l(ip)
+      Ip2Location::Request.ip2l(ip)
     end
     
   end
