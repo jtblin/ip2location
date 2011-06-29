@@ -32,7 +32,7 @@ Requirements
 
 Install
 -------
-`gem install ip2location`
+    gem install ip2location
 
 
 Copyright
