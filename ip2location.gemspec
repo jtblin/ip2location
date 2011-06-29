@@ -24,7 +24,7 @@ Gem::Specification.new do |gemspec|
 
   version = {
     :file => 'lib/ip2location/version.rb',
-    :constant => 'Ip2location::VERSION'
+    :constant => 'Ip2Location::VERSION'
   }
 
   defaults = {

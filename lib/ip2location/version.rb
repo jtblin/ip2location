@@ -1,4 +1,3 @@
-module Ip2location
-  # ip2location version
+module Ip2Location
   VERSION = "0.1.0"
 end

@@ -1,4 +1,4 @@
 require 'rspec'
-require 'ip2location/version'
+require 'ip2location'
 
-include Ip2location
+include Ip2Location
