@@ -3,9 +3,9 @@ ip2location
 
 Description
 -----------
+This is a stupid simple client for [IP2LocationAPI](http://www.ip2locationapi.com/) written with [David Balatero](https://github.com/dbalatero)'s awesome [monster_mash](https://github.com/dbalatero/monster_mash) library.
 
-
-Examples
+Usage
 --------
     require 'ip2location'
     
@@ -20,6 +20,7 @@ Examples
     end
 
     puts Ip2Location.ip2l('8.8.8.8')
+    #=> <struct Ip2Location::Location ip="8.8.8.8", country_code="US", country="United States", region="California", city="Mountain View", latitude="34.305", longitude="-86.2981">
   
 
 Requirements
