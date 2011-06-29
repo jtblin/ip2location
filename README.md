@@ -3,7 +3,8 @@ ip2location
 
 Description
 -----------
-This is a stupid simple client for [IP2LocationAPI](http://www.ip2locationapi.com/) written with [David Balatero](https://github.com/dbalatero)'s awesome [monster_mash](https://github.com/dbalatero/monster_mash) library.
+This is a stupid simple client for [IP2LocationAPI](http://www.ip2locationapi.com/) written with [David Balatero](https://github.com/dbalatero)'s awesome [monster_mash](https://github.com/dbalatero/monster_mash) library. I wrote it more or less 
+as practice and to continue to familiarize myself with Ruby 1.9, RSpec, and Typhoeus.
 
 Usage
 --------
