@@ -1,5 +1,6 @@
 module Ip2Location
   Location = Struct.new(:ip, :country_code, :country, :region, :city, :latitude, :longitude)
+  
   class Request < Base
     get(:ip2l) do |ip|
       uri "#{BASE_URI}"
@@ -7,8 +8,10 @@ module Ip2Location
               :key =>   Ip2Location.api_key,
               :ip   =>  ip
       handler do |response|
-        if (parsed = parse_response(response.body, ip))
+        if response.success? && (parsed = parse_response(response.body, ip))
           parsed
+        else
+          raise APIConnectionError, "There was a problem making your request!"
         end
       end
     end
@@ -29,6 +32,5 @@ module Ip2Location
         body
       end
     end
-    
   end
 end

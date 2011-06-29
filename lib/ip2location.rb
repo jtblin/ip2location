@@ -25,4 +25,5 @@ module Ip2Location
   
   class InvalidApiKeyError < StandardError; end
   class NoLocationDataError < StandardError; end
+  class APIConnectionError < StandardError; end
 end
