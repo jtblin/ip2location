@@ -20,7 +20,8 @@ module Ip2Location
     def request(ip)
       Ip2Location::Request.ip2l(ip)
     end
-    alias_method :ip2l, :request    
+    alias_method :ip2l, :request
+     
   end
   
   class InvalidApiKeyError < StandardError; end
