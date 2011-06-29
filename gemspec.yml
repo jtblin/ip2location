@@ -1,0 +1,9 @@
+name: ip2location
+summary: "TODO: Summary"
+description: "TODO: Description"
+license: MIT
+authors: ezkl
+homepage: http://rubygems.org/gems/ip2location
+
+development_dependencies:
+  bundler: ~> 1.0.0
