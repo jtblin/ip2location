@@ -2,8 +2,8 @@ name: ip2location
 summary: "Client for the IP2Location API"
 description: "A simple client for the free IP2Location API."
 license: MIT
-authors: ezkl
-homepage: http://rubygems.org/gems/ip2location
+authors: "Ezekiel Templin"
+homepage: http://github.com/ezkl/ip2location
 
 runtime_dependencies:
   monster_mash: ~> 0.2

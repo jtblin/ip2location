@@ -30,7 +30,6 @@ Gem::Specification.new do |gemspec|
   defaults = {
     'name' => File.basename(File.dirname(__FILE__)),
     'files' => files,
-    'executables' => filter_files['bin/*'].map { |path| File.basename(path) },
     'test_files' => filter_files['{test/{**/}*_test.rb,spec/{**/}*_spec.rb}'],
     'extra_doc_files' => filter_files['*.{txt,rdoc,md,markdown,tt,textile}'],
   }
