@@ -7,7 +7,6 @@ module Ip2Location
               :key =>   Ip2Location.api_key,
               :ip   =>  ip
       handler do |response|
-        puts response.effective_url
         if (parsed = Ip2Location::Request.parse_response(response.body, ip))
           parsed
         end
