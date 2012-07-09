@@ -6,7 +6,7 @@ require 'ip2location/base'
 require 'ip2location/request'
 
 module Ip2Location
-  BASE_URI = "http://api.ip2locationapi.com/"
+  BASE_URI = "http://api.locatorhq.com/"
   @api_key  = nil
   @user     = nil
   
